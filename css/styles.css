@@ -38,12 +38,12 @@ main {
 
 .Bienvenida {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.3125rem;
 }
 
 .Bienvenida h1 {
     font-family: "Sonsie One";
-    font-size: 48px;
+    font-size: 3rem;
     color:darkgray;
 }
 
@@ -93,12 +93,12 @@ main {
 }
 
 .Ubicacion {
-    height: 80px;
-    width: 120px;
+    height: 5rem;
+    width: 7.5rem;
 }
 
 .NumeroGrande {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bolder;
 
 }
@@ -106,12 +106,12 @@ main {
 .ConsultoriosContainer {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .ConsultoriosContainer div {
-    height: 300px;
-    width: 250px;
+    height: 18.75rem;
+    width: 15.625rem;
     background-color: white;
     border-radius: 10px;
     align-content: center;
@@ -121,7 +121,7 @@ main {
 
 .Consultorios img {
     border-radius: 50%;
-    padding: 20px;
+    padding: 1.25rem;
     filter: grayscale(1);
 }
 
@@ -134,8 +134,8 @@ main {
 .Caballito {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(6, 1fr) 20px;
-    grid-template-rows: 50px repeat(8, 100px) 20px;
+    grid-template-columns: repeat(6, 1fr) 1.25rem;
+    grid-template-rows: 50px repeat(8, 6.25rem) 1.25rem;
 }
 
 .Caballito .ConsultoriosLateral {
@@ -148,7 +148,7 @@ main {
 }
 
 .Caballito h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     grid-column: 2/7;
     grid-row: 1/2;
     order: 2;
@@ -178,8 +178,8 @@ main {
 .Palermo {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(6, 1fr) 20px;
-    grid-template-rows: 50px repeat(8, 100px) 20px;
+    grid-template-columns: repeat(6, 1fr) 1.25rem;
+    grid-template-rows: 3.125rem repeat(8, 6.25rem) 1.25rem;
 }
 
 .Palermo .ConsultoriosLateral {
@@ -191,7 +191,7 @@ main {
 }
 
 .Palermo h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     grid-column: 2/7;
     grid-row: 1/2;
     order: 2;
@@ -221,8 +221,8 @@ main {
 .Olivos {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(6, 1fr) 20px;
-    grid-template-rows: 50px repeat(8, 100px) 20px;
+    grid-template-columns: repeat(6, 1fr) 1.25rem;
+    grid-template-rows: 3.125rem repeat(8, 6.25rem) 1.25rem;
 }
 
 .Olivos .ConsultoriosLateral {
@@ -234,7 +234,7 @@ main {
 }
 
 .Olivos h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     grid-column: 2/7;
     grid-row: 1/2;
     order: 2;
@@ -310,10 +310,10 @@ main {
 }
 
 .NumerosContainer div {
-    height: 300px;
-    width: 350px;
+    height: 18.75rem;
+    width: 21.875rem;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     align-content: center;
     justify-items: center;
 }
@@ -329,7 +329,7 @@ main {
     .NumerosContainer {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
     .SectionNC{
         display: flex;
@@ -348,7 +348,7 @@ main {
     grid-template-areas:
         "depilacion mesoterapia lfacial"
         "botox masajes nutri";
-    gap: 20px;
+    gap: 1.25rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -389,7 +389,7 @@ main {
 
 .ServiciosContainer div img {
     border-radius: 10%;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
 }
 
 
@@ -405,7 +405,7 @@ main {
 @media(max-width:320px){
     .Bienvenida h1 {
     font-family: "Sonsie One";
-    font-size: 30px;
+    font-size: 1.875rem;
     color:darkgray;
 }
 }
