@@ -1,0 +1,19 @@
+{
+  "name": "estetica",
+  "version": "1.0.0",
+  "description": "SEGUNDA ENTREGA DE LA COMISION 87885\r AUTOR: ARIEL MARTUCCI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielmartucci/entrega2coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielmartucci/entrega2coder/issues"
+  },
+  "homepage": "https://github.com/arielmartucci/entrega2coder#readme"
+}
